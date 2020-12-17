@@ -381,13 +381,13 @@ span {
 }
 
 .toner h1 {
-  font-size: 35px;
-  margin-bottom: 30px;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .toner p {
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .toner .pdf-content {
@@ -415,11 +415,10 @@ span {
   padding: 20px 40px;
   background-color: var(--red);
   letter-spacing: 2px;
-  border-radius: 20px;
   cursor: pointer;
   font-weight: 900;
   font-size: 30px;
-  color: white;
+  color: #fff;
   margin-top: 30px;
   margin-bottom: 50px;
 }
