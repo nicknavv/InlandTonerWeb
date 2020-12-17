@@ -117,21 +117,17 @@ span {
 .services img {
   margin: 3rem 2rem;
   max-width: 150px;
-  background: red;
 }
 
-.services h1 {
-  text-align: center;
-  font-size: 35px;
+.front-cta {
   letter-spacing: 2px;
   font-weight: 900;
-  color: white;
-  margin-top: -75px;
+  color: #fff;
+  margin-top: -3rem;
 }
 
 .services p {
-  text-align: center;
-  color: white;
+  color: #fff;
   font-size: 20px;
   line-height: 40px;
   font-weight: 400;
@@ -145,20 +141,33 @@ span {
   text-align: center;
 }
 
-.learn-cta {
-  background-color: white;
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.btn-container .learn-cta,
+.quote-cta {
+  background-color: #fff;
   margin-top: 10px;
-  font-size: 25px;
+  font-size: 2rem;
   font-weight: 900;
   padding: 20px 60px;
   border-radius: 15px;
 }
 
-.learn-cta:hover {
+.learn-cta:hover,
+.quote.cta:hover {
   cursor: pointer;
 }
 
 .learn-cta a {
+  color: var(--red);
+  text-decoration: none;
+}
+
+.quote-cta a {
   color: var(--red);
   text-decoration: none;
 }
