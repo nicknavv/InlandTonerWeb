@@ -147,9 +147,17 @@ span {
   justify-content: space-evenly;
 }
 
-.btn-container .learn-cta,
+.btn-container .learn-cta {
+  background-color: var(--red);
+  margin-top: 10px;
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 20px 60px;
+  border-radius: 15px;
+}
+
 .quote-cta {
-  background-color: #fff;
+  background-color: $fff;
   margin-top: 10px;
   font-size: 2rem;
   font-weight: 900;
@@ -163,7 +171,7 @@ span {
 }
 
 .learn-cta a {
-  color: var(--red);
+  color: #fff;
   text-decoration: none;
 }
 
@@ -179,7 +187,7 @@ span {
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 5rem;
 }
 
 .services .container .serviceBx {
@@ -194,7 +202,7 @@ span {
   margin-bottom: -150px;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid white;
+  border: 5px solid #fff;
 }
 
 .services .container .serviceBx i {
